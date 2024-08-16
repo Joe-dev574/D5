@@ -14,6 +14,17 @@
 		3780BB822C6C205300BA683C /* D5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BB812C6C205300BA683C /* D5Tests.swift */; };
 		3780BB8C2C6C205300BA683C /* D5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BB8B2C6C205300BA683C /* D5UITests.swift */; };
 		3780BB8E2C6C205300BA683C /* D5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BB8D2C6C205300BA683C /* D5UITestsLaunchTests.swift */; };
+		3780BB9F2C6C20FE00BA683C /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BB9E2C6C20FE00BA683C /* Workout.swift */; };
+		3780BBA12C6C229100BA683C /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BBA02C6C229100BA683C /* Exercise.swift */; };
+		3780BBA32C6C22A100BA683C /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BBA22C6C22A100BA683C /* History.swift */; };
+		3780BBA52C6C3C6D00BA683C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BBA42C6C3C6D00BA683C /* UIColor+Extension.swift */; };
+		3780BBA72C6C3CA300BA683C /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BBA62C6C3CA300BA683C /* Color+Extensions.swift */; };
+		3780BBAA2C6C3EF600BA683C /* WorkoutsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BBA92C6C3EF600BA683C /* WorkoutsListView.swift */; };
+		3780BBAF2C6EDDBE00BA683C /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BBAE2C6EDDBE00BA683C /* HapticsManager.swift */; };
+		3780BBB12C6EE3B000BA683C /* WorkoutListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BBB02C6EE3B000BA683C /* WorkoutListHeaderView.swift */; };
+		3780BBB32C6EE40400BA683C /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BBB22C6EE40400BA683C /* MenuButtonView.swift */; };
+		3780BBB52C6EE57200BA683C /* EllipsisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BBB42C6EE57200BA683C /* EllipsisView.swift */; };
+		3780BBB72C6EF39D00BA683C /* WorkoutCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780BBB62C6EF39D00BA683C /* WorkoutCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		3780BB872C6C205300BA683C /* D5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = D5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3780BB8B2C6C205300BA683C /* D5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D5UITests.swift; sourceTree = "<group>"; };
 		3780BB8D2C6C205300BA683C /* D5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3780BB9E2C6C20FE00BA683C /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		3780BBA02C6C229100BA683C /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		3780BBA22C6C22A100BA683C /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		3780BBA42C6C3C6D00BA683C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		3780BBA62C6C3CA300BA683C /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		3780BBA92C6C3EF600BA683C /* WorkoutsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsListView.swift; sourceTree = "<group>"; };
+		3780BBAE2C6EDDBE00BA683C /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		3780BBB02C6EE3B000BA683C /* WorkoutListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListHeaderView.swift; sourceTree = "<group>"; };
+		3780BBB22C6EE40400BA683C /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
+		3780BBB42C6EE57200BA683C /* EllipsisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipsisView.swift; sourceTree = "<group>"; };
+		3780BBB62C6EF39D00BA683C /* WorkoutCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +117,11 @@
 		3780BB6E2C6C205100BA683C /* D5 */ = {
 			isa = PBXGroup;
 			children = (
+				3780BBAD2C6EDD8B00BA683C /* Support */,
+				3780BBA82C6C3CFF00BA683C /* Theme */,
 				3780BB6F2C6C205100BA683C /* D5App.swift */,
-				3780BB712C6C205100BA683C /* ContentView.swift */,
+				3780BB9B2C6C20A100BA683C /* Models */,
+				3780BB9A2C6C209300BA683C /* Views */,
 				3780BB732C6C205200BA683C /* Assets.xcassets */,
 				3780BB752C6C205200BA683C /* D5.entitlements */,
 				3780BB762C6C205200BA683C /* Preview Content */,
@@ -127,6 +152,46 @@
 				3780BB8D2C6C205300BA683C /* D5UITestsLaunchTests.swift */,
 			);
 			path = D5UITests;
+			sourceTree = "<group>";
+		};
+		3780BB9A2C6C209300BA683C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3780BB712C6C205100BA683C /* ContentView.swift */,
+				3780BBA92C6C3EF600BA683C /* WorkoutsListView.swift */,
+				3780BBB02C6EE3B000BA683C /* WorkoutListHeaderView.swift */,
+				3780BBB22C6EE40400BA683C /* MenuButtonView.swift */,
+				3780BBB42C6EE57200BA683C /* EllipsisView.swift */,
+				3780BBB62C6EF39D00BA683C /* WorkoutCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3780BB9B2C6C20A100BA683C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3780BB9E2C6C20FE00BA683C /* Workout.swift */,
+				3780BBA02C6C229100BA683C /* Exercise.swift */,
+				3780BBA22C6C22A100BA683C /* History.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3780BBA82C6C3CFF00BA683C /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				3780BBA42C6C3C6D00BA683C /* UIColor+Extension.swift */,
+				3780BBA62C6C3CA300BA683C /* Color+Extensions.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		3780BBAD2C6EDD8B00BA683C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				3780BBAE2C6EDDBE00BA683C /* HapticsManager.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +324,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3780BBA32C6C22A100BA683C /* History.swift in Sources */,
+				3780BBA12C6C229100BA683C /* Exercise.swift in Sources */,
 				3780BB722C6C205100BA683C /* ContentView.swift in Sources */,
+				3780BBB72C6EF39D00BA683C /* WorkoutCardView.swift in Sources */,
+				3780BBB32C6EE40400BA683C /* MenuButtonView.swift in Sources */,
+				3780BBB12C6EE3B000BA683C /* WorkoutListHeaderView.swift in Sources */,
+				3780BBA52C6C3C6D00BA683C /* UIColor+Extension.swift in Sources */,
+				3780BBB52C6EE57200BA683C /* EllipsisView.swift in Sources */,
+				3780BBA72C6C3CA300BA683C /* Color+Extensions.swift in Sources */,
 				3780BB702C6C205100BA683C /* D5App.swift in Sources */,
+				3780BBAA2C6C3EF600BA683C /* WorkoutsListView.swift in Sources */,
+				3780BBAF2C6EDDBE00BA683C /* HapticsManager.swift in Sources */,
+				3780BB9F2C6C20FE00BA683C /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
